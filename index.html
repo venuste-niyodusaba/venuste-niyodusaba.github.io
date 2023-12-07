@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body >
+    <div class="container">
+    <form  id="form" name="form" method="post" onsubmit="return validate()">
+        <h1>login form</h1>
+    <div class="input_control succes">
+        <label >email or phone</label>
+         <input type="email" name="email"  >
+         <label id="email_error"> please fill your email or phone</label>
+         <div class="error"></div>
+        </div>
+        <div class="input_control">
+        <label > Password</label> 
+         <input type="password" name="password" >
+         <label id="pass_error"> please enter your password</label>
+         <div class="error"></div>
+        </div>
+        <div class="controller">
+         <button type="submit"> Sing up</button>
+         </div>
+    </div>
+    </form>
+    </body>
+</html>
+<script  src="valid.js"></script>
