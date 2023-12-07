@@ -1,0 +1,48 @@
+body{
+    background:url('bg.jpg');
+    font-size: smaller;
+    background-size: cover;
+}
+#form{
+    width: 6cm;
+    height:7cm;
+    margin: 10vh auto 0 auto;
+    padding: 20px;
+    background-color: cyan;
+    border-radius:2px;
+}
+.form h1{
+    color:white;
+    text-align: center;
+}
+#form button{
+    padding: 10px;
+    margin-top:20px;
+    width: 80%;
+    color: white;
+    background-color: green;
+    border: none;
+    border-radius:2px;
+}
+.input_control{
+    display: flex;
+    flex-direction: column;
+
+}
+.input_control input{
+    border:1px ;
+    border-radius: 2px;
+    display: block;
+    font-size: small;
+    color:gray;
+    padding: 10px;
+    width: 5cm;
+
+}
+#form #email_error,
+#form #pass_error{
+    color: rgb(235, 15, 15);
+    display: none;
+
+}
+
